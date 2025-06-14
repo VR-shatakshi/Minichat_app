@@ -1,0 +1,66 @@
+.chat {
+    background-color:#1E1C1B;
+    color : #47CB0A;
+    margin :auto ;
+    width : 400px ;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 20px black;
+    font-style: italic;
+    font-size: 20px;
+    font-style: bold;
+}
+.msg {
+      margin: auto;
+      background-color: azure;
+      border: whitesmoke;
+    
+}
+
+h1{
+    margin-left: 3rem;
+    color:#BE0ACB;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-decoration: white dotted;
+    font-style: bold;
+    font-style: italic;
+    background-image:url("https://i.pinimg.com/736x/ee/ba/26/eeba26add7248f938ebd1b97fa41fba3.jpg");
+    background-size:cover;
+}
+
+body{
+  background-color:#77F67B;
+  background-image:url("https://img.freepik.com/free-vector/hand-drawn-people-communicating_23-2149155663.jpg?semt=ais_hybrid&w=740");
+  background-size: cover;
+}
+
+hr{
+    color:aliceblue;
+
+}
+.red {
+    background-color:#ed474a;
+    color: #1E1C1B;
+    border-radius: 3rem;
+    border-color:wheat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.white {
+    background-color:#161716;
+    color:yellow;
+    border-radius: 3rem;
+    border-color:wheat;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto; 
+}
+.time{
+    background-color:#77F67B;
+    color:black;
+    border-radius: 50px;;
+    border: #1E1C1B double;
+    font-style:bold ;
+    font-family:"cursive";
+}

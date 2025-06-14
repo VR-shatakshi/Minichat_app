@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatapp-homescreen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Chatapp ...("Kuch baatein ho jaye ")</h1>
+    <br>
+    <br>
+    <hr>
+    <br>
+     
+    <form method="GET" action="/chats/new">
+        <button class="white">New chat </button>
+   </form>
+   <br> 
+   <br>
+    <% for (let chat of chats) {%>
+        
+      
+        <div class="chat">
+            <p >From: <%= chat.from %></p>
+        <div class = "msg">
+            <p>Message: <%= chat.msg %></p>
+            <br>
+           <form  method="post" action ="/chats/ <%= chat._id %> ?_method=DELETE">
+               <button class ="red">Delete </button>
+         </form>
+         
+         
+        </div>
+            <p class >Recevied : <%= chat.to %></p>
+        
+            <p class="time">Time: <%= chat.created_date.toString().split(" ").slice(0,4).join("-")%></p>
+            <br>
+        </div>
+             
+           
+        <hr>
+               
+        
+    <% }%>
+
+</body>
+</html>
